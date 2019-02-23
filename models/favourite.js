@@ -10,4 +10,4 @@ let favouriteSchema = mongoose.Schema({
     collection: "favourite-things"
 });
 
-module.exports = mongoose.model('test2', favouriteSchema);
+module.exports = mongoose.model('favourite', favouriteSchema);

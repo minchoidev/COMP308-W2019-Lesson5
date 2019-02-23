@@ -11,4 +11,4 @@ let contactSchema = mongoose.Schema({
     collection: "contacts"
 });
 
-module.exports = mongoose.model('test', contactSchema);
+module.exports = mongoose.model('contact', contactSchema); // model name and model schema
